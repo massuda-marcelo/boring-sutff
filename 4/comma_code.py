@@ -15,7 +15,7 @@ def comma_code(list):
         s += ' and ' + str(list[-1])
     s = '[' + s + ']'
     return s
-    
+
 print(comma_code(spam))
 print(comma_code([]))
 print(comma_code([1, 2, 3]))
